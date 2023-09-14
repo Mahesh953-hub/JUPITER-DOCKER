@@ -1,6 +1,7 @@
 FROM ubuntu:latest
 
 # Gerekli paketleri kurmak için kullanılır
+RUN sudo
 RUN pip install jupyter
 
 # Çalışma dizini oluşturulur
