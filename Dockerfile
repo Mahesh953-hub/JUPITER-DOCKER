@@ -1,7 +1,6 @@
 FROM ubuntu:latest
 
 # Gerekli paketleri kurmak için kullanılır
-RUN apt install python3-pip
 RUN pip install jupyter
 
 # Çalışma dizini oluşturulur
