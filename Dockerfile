@@ -3,7 +3,7 @@ FROM python:latest
 # Gerekli paketleri kurmak için kullanılır
 
 RUN pip install jupyter
-RUN echo -e "Erdemanan\nErdemanan" | jupyter notebook password
+RUN jupyter notebook --generate-config
 # Çalışma dizini oluşturulur
 WORKDIR /app
 
