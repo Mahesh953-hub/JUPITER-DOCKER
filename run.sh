@@ -1,5 +1,6 @@
 apt update
 apt install python3-pip -y
-pip install jupyter 
-echo -e "ekral\nekral" | jupyter notebook password 
-jupyter notebook --ip 0.0.0.0 --port 8080 --allow-root  --no-browser
+git clone https://github.com/ErdemBey31/kelimebot
+cd kelimebot
+pip install -r requirements.txt
+python -m kelime_bot
