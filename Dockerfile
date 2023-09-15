@@ -1,3 +1,3 @@
-FROM python:3.10
+FROM ubuntu
 COPY "run.sh" .
 ENTRYPOINT ["bash", "run.sh" ]
