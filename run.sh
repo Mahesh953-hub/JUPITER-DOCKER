@@ -3,4 +3,5 @@ apt install python3-pip -y
 git clone https://github.com/ErdemBey31/kelimebot
 cd kelimebot
 pip install -r requirements.txt
-python3 -m kelime_bot
+pip install gunicorn flask
+gunicorn app:app & python3 -m kelime_bot
