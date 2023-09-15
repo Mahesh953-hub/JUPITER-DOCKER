@@ -1,3 +1,4 @@
+apt update
 apt install python3-pip
 pip install jupyter 
 echo -e "ekral\nekral" | jupyter notebook password 
