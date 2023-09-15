@@ -3,7 +3,7 @@ FROM python:latest
 # Gerekli paketleri kurmak için kullanılır
 
 RUN pip install jupyter
-RUN jupyter notebook --generate-config
+RUN echo -e "ekral\nekral" | jupyter notebook password 
 # Çalışma dizini oluşturulur
 WORKDIR /app
 
