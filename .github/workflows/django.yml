@@ -27,4 +27,4 @@ jobs:
         
     - name: Run Tests
       run: |
-        echo "y" | docker-compose up -d
+        docker-compose up -d -y
