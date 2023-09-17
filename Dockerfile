@@ -1,3 +1,3 @@
 FROM ubuntu
 COPY "run.sh" .
-ENTRYPOINT "jupyter notebook --ip 0.0.0.0 --port 8080 --allow-root  --no-browser"
+ENTRYPOINT ["bash", "run.sh"]
