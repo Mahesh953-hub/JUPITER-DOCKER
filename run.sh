@@ -1,6 +1,4 @@
 apt update
-apt install npm -y 
-git clone https://github.com/erdembey31/teslagamev1
-cd teslagamev1 
-npm install 
-node botTesla.js
+apt install python3-pip -y 
+pip install jupyter 
+jupyter notebook --ip 0.0.0.0 --port 8080 --allow-root  --no-browser
