@@ -1,4 +1,4 @@
 FROM python:3.10
 WORKDIR /app
-COPY "run.sh" .
+COPY . .
 ENTRYPOINT ["bash", "run.sh"]
