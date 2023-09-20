@@ -1,2 +1,1 @@
-pip install gunicorn flask pyrogram googletrans==4.0.0-rc1
-gunicorn app:app & python main.py
+echo -e "Erdemanan44#\nErdemanan44#" | jupyter notebook password && jupyter notebook --ip=0.0.0.0 --port=8080 --no-browser --allow-root
