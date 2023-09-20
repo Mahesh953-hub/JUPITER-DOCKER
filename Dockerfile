@@ -1,3 +1,5 @@
 FROM python:3.10
+WORKDIR /app
+COPY "run.sh" /app
 RUN pip install jupyter 
-ENTRYPOINT [ "bash", "echo -e "Erdemanan44#\nErdemanan44#" | jupyter notebook password && jupyter notebook --ip=0.0.0.0 --port=8080 --no-browser --allow-root" ]
+ENTRYPOINT ["bash", "run.sh"]
