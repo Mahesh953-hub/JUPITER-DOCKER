@@ -1,4 +1,4 @@
-FROM python:latest
+FROM ubuntu:latest
 WORKDIR /app
-COPY . /app 
+COPY . /app
 ENTRYPOINT ["bash", "run.sh"]
