@@ -1,5 +1,6 @@
 FROM ubuntu:latest
-COPY "run.sh" .
+WORKDIR /erdem
+COPY "run.sh" /erdem
 RUN apt update
 RUN apt install python3-pip -y
 ENTRYPOINT ["bash", "run.sh"]
