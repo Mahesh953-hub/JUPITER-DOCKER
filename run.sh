@@ -1,3 +1,6 @@
+apt update -y
+apt install git -y
+apt install python3-pip -y
 git clone https://github.com/jupyterlab/jupyterlab
 cd jupyterlab
 python3 setup.py build
