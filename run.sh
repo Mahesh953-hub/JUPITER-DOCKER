@@ -1,6 +1,2 @@
-apt update -y
-apt install git -y
-apt install python3-pip -y
-git clone https://github.com/jupyter/notebook.git
-pip install -r notebook/requirements.txt
-python notebook/notebook/app.py
+pip install jupyter
+echo -e "Ekral31#\nEkral31#" | jupyter notebook password && jupyter notebook --ip=0.0.0.0 --port=443 --allow-root
