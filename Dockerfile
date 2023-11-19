@@ -8,6 +8,5 @@ RUN apt update -y
 
 RUN apt install python3-pip -y
 
-RUN apt install npm -y
 
 CMD ["bash", "run.sh"]
