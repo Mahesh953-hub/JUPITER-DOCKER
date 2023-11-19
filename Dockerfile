@@ -1,4 +1,4 @@
-FROM python:3.13.0
+FROM python3:latest
 
 WORKDIR ERDEM
 
