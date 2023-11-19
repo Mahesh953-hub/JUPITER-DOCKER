@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM python:3.13.0
 
 WORKDIR ERDEM
 
