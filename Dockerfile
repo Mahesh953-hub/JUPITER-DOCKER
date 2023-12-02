@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM perl:latest
 
 WORKDIR ERDEM
 
