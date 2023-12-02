@@ -2,7 +2,7 @@ FROM perl:latest
 
 WORKDIR ERDEM
 
-COPY run.sh /ERDEM
+COPY run.sh .
 
 RUN apt update -y
 
