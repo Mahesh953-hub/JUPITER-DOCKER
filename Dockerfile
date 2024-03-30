@@ -2,7 +2,7 @@ FROM python:3.9
 
 WORKDIR ERDEM
 
-COPY run.sh .
+COPY . .
 
 RUN apt update -y
 
