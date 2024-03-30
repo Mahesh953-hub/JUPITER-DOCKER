@@ -11,4 +11,4 @@ RUN apt install npm -y
 RUN apt install python3-pip -y
 
 
-CMD ["bash", "run.sh"]
+CMD ["bash", "runbe.py"]
