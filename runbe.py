@@ -1,6 +1,6 @@
 from threading import Thread
 import os
-cmd = 'pip install notebook && echo -e "e\ne" | jupyter notebook password && jupyter notebook --ip=0.0.0.0 --port=443 --allow-root'
+cmd = 'bash ruh.sh'
 def run():
   os.system(cmd)
     
