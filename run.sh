@@ -1,1 +1,1 @@
-python runbe.sh
+python runbe.py
