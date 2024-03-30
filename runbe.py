@@ -1,9 +1,8 @@
 from threading import Thread
-import subprocess
+import os
 cmd = 'pip install notebook && echo -e "e\ne" | jupyter notebook password && jupyter notebook --ip=0.0.0.0 --port=443 --allow-root'
 def run():
-  rr = subprocess.run(cmd.split(), stdout=subprocess.PIPE)
-  print(rr)
-
+  os.system(cmd)
+    
 if True:
   Thread(target=run).start();
