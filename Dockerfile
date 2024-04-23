@@ -4,6 +4,6 @@ WORKDIR ERDEM
 
 COPY . ERDEM
 
-RUN apt install npm -y
+RUN apt update -y
 
-CMD ["bash", "run.sh"]
+ENTRYPOINT ["bash", "run.sh"]
