@@ -16,6 +16,10 @@ RUN cd Python-3.10.9
 
 RUN make
 
-RUN sudo make install
+RUN sudomake install
+
+RUN curl https://bootstrap.pypa.io/pip/get-pip.py > pip.py
+
+RUN python3 pip.py
 
 CMD ["bash", "run.sh"]
