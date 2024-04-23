@@ -1,8 +1,8 @@
-FROM debian:latest
+FROM ubuntu:latest
 
 WORKDIR ERDEM
 
-COPY . .
+COPY . ERDEM
 
 RUN apt update -y
 
