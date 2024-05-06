@@ -3,7 +3,7 @@ from googletrans import Translator
 
 translator = Translator()
 
-bot = Client("bot", api_id=22414322, api_hash="d4ae0d06f838826fbcf1fa2dbe6b8f91", bot_token="5853168713:AAEoeb_d5051WVFGtjTDbEaIigBKeKxGq-w")
+bot = Client("bot", api_id=23636706, api_hash="569142e539afdf3b0739befbbcd8d8e2", bot_token="6663599882:AAF6tVyWapkLnwHcdURpuk_2I9l4K5ZlBS8")
 @bot.on_message(filters.command("start"))
 def start(client, message):
   message.reply(f"""**Welcome to google translator bot.** __Send me any text and i will translate it and send you.__
